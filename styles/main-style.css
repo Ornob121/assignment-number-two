@@ -215,6 +215,7 @@ footer {
     border-radius: 8px;
     margin: 0px 3%;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .footer-description {
@@ -224,6 +225,72 @@ footer {
     color: #424242;
     padding: 40px 0px;
 }
+
+/* contact us extra section styles */
+
+.contact-us{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.contact-us-title, .contact-us-description {
+    color: white;
+    padding-top: 30px;
+    padding-left: 3%;
+}
+.contact-us h2{
+    font-size: 50px;
+}
+.form-size{
+    padding: 10px 35px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.form-submit{
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* margin-left: 220px; */
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF900E;
+    color: white;
+}
+
+.form-submit:hover{
+    color:gold;
+    background-color: gray;
+}
+
+.button-reset{
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 220px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.reset:hover{
+    color: #FFFFFF;
+    background-color: red;
+}
+
 
 
 
@@ -290,6 +357,23 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 30px;
         padding-top: 20px;
+    }
+    .contact-us{
+        flex-direction: column;
+    }
+    .form-size, .form-submit{
+        margin-left: 10px;
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+    #comment{
+        width: 75%;
+    }
+    .name{
+        margin-top: 80px;
+    }
+    .reset{
+        margin-left: 10px;
     }
 
 }
