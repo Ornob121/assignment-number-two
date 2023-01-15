@@ -76,6 +76,12 @@ nav .nav-two {
 .header-banner{
     padding: 0px 3% 45px;
 }
+.header-banner img{
+    width: 100%;
+
+}
+
+/*-------------------------------------- this is the responsive section ---------------------------------------*/
 
 @media screen and (max-width:576px) {
     nav{
