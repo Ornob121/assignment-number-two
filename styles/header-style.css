@@ -1,0 +1,123 @@
+/* ---------------------This is header style section------------------ */
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-one {
+    padding: 50px 0px 0px 3%;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav .nav-two a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-ancor{
+    padding-right: 50px;
+
+}
+
+nav .nav-two {
+    padding: 63px 3% 0px 0px;
+}
+
+.header-part-two {
+    text-align: center;
+    padding: 102px 22% 0px 22%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+
+.header-button {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 45% 50px;
+    height: 64px;
+    width: 180px;
+}
+
+.header-button:hover{
+    color: goldenrod;
+    background-color: green;
+}
+
+.header-banner{
+    padding: 0px 3% 45px;
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+
+    nav .nav-one{
+        font-size: 30px;
+    }
+    .nav-two{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        align-items: end;
+        justify-items: center;
+    }
+    .header-ancor{
+        padding: 0px;
+    }
+    .header-part-two{
+        padding:50px 10px 0px;
+        text-align: center;
+    }
+
+    .header-title{
+        font-size: 50px;
+    }
+    .header-button{
+        margin:0px 32% 20px;
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        padding: 10px 12px;
+        color: #FFFFFF;
+        background: #FF900E;
+    }
+    .header-button:hover{
+        color: goldenrod;
+        background-color: green;
+    }
+    .header-banner img{
+        height: 100%;
+        width: 100%;
+    }
+}
